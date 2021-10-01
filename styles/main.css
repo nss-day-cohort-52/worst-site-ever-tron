@@ -1,3 +1,9 @@
+@import url("./warGraphic.css");
+
+* {
+    border: dotted brown;
+}
+
 .title {
     color: red;
 }

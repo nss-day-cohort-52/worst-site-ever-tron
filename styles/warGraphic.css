@@ -1,0 +1,15 @@
+
+
+.RPG {
+    background-color: brown;
+}
+
+.RPGGraphic {
+    max-width: 50px;
+    max-height: 30px;
+}
+
+.bear {
+    max-width: 2px;
+    max-height: 1px;
+}
