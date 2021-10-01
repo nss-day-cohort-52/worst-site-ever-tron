@@ -1,9 +1,24 @@
+
 @import url("./warGraphic.css");
 
 * {
     border: dotted brown;
 }
 
+@import url("./centerImage.css");
+
+
+
 .title {
-    color: red;
+    color: rgb(68, 0, 255);
+    transform: translate(120px, 50%);
+}
+body {
+    background-color: darkorchid;
+    background: repeating-linear-gradient(
+  45deg,
+  #990862,
+  #990862 10px,
+  #469879 10px,
+  #469879 20px);
 }
