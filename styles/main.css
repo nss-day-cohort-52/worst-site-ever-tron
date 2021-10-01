@@ -1,11 +1,13 @@
 
+@import url("./centerImage.css");
 @import url("./warGraphic.css");
+
 
 * {
     border: dotted brown;
 }
 
-@import url("./centerImage.css");
+
 
 
 
