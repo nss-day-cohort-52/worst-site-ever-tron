@@ -1,0 +1,6 @@
+.Tips{
+    display: flex;
+    flex-wrap: nowrap;
+    color: gold;
+    text-align: end;
+}
