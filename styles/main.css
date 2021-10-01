@@ -1,13 +1,13 @@
-
+@import url("./centerImage.css");
 @import url("./warGraphic.css");
-
+@import url("./MeditationTips.css");
 * {
     border: dotted brown;
 }
 
-@import url("./centerImage.css");
 
-@import url("./MeditationTips.css");
+
+
 
 .title {
     color: rgb(68, 0, 255);

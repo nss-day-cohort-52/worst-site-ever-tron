@@ -1,6 +1,7 @@
-.Tips{
+.meditationTips{
     display: flex;
     flex-wrap: nowrap;
-    color: gold;
-    text-align: end;
+    justify-content: flex-end;
+    color: aliceblue;
+
 }
