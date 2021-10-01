@@ -1,5 +1,7 @@
 @import url("./centerImage.css");
 @import url("./warGraphic.css");
+@import url("./MeditationTips.css");
+
 
 * {
     border: dotted pink;

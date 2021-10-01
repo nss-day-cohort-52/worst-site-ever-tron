@@ -1,15 +1,82 @@
-
+* {
+    background-color: coral;
+}
 
 .RPG {
     background-color: brown;
 }
 
 .RPGGraphic {
-    max-width: 50px;
-    max-height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-left: 20rem;
+    border: 60px solid rgb(248, 2, 2);
+    max-width: 25rem;
+    max-height: 5rem;
+    border-radius: 120px;
+    
+        animation: rotation 8s infinite linear;
+      }
+      
+      @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+     
 }
 
+
+
 .bear {
-    max-width: 2px;
-    max-height: 1px;
+    border: 35px dotted #5455;
+    max-width: 10rem;
+    max-height: 10rem;
+    background: chartreuse;
+    border-style: -webkit-animation-delay;
+    
+    top:0;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+#f1 {
+    background-color: lightblue;
+}
+#f2 {
+    -webkit-animation-delay: -4s;
+    background-color: yellow;
+}
+#f3 {
+    -webkit-animation-delay: -20s;
+    background-color: lightgreen;
+}
+
+.quote {
+    color: rgba(139, 32, 5, 0.493);
+    
+    text-shadow: palegoldenrod;
 }
