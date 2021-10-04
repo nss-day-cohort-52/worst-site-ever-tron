@@ -1,11 +1,10 @@
-
 @import url("./centerImage.css");
 @import url("./warGraphic.css");
 @import url("./MeditationTips.css");
 
 
 * {
-    border: dotted brown;
+    border: dotted pink;
 }
 
 
@@ -14,7 +13,9 @@
 
 .title {
     color: rgb(68, 0, 255);
-    transform: translate(120px, 50%);
+    transform: translate(30px, 20px) rotate(20deg);
+    width: 140px;
+    height: 60px;
 }
 body {
     background-color: darkorchid;
