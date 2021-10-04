@@ -1,25 +1,29 @@
-
+.groovy{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .resize{
     height: 10rem;
     width: 10rem;
-    padding: 1em;   
+    padding: 1em;  
 }
-
-.groovy{
-    display:flex;
+.textSize {
+    display: flex;
     justify-content: center;
+    flex: 1;
 }
-
 .tastyJams{
+    flex: 2;
     text-size-adjust: 1px;
     text-align: left;
-}
-.tastyTitle{
     padding: 0px;
     margin: 0px;
+    text: color black;
 }
-.tastyJams {
+.tastyTitle{
+    text-size-adjust: 10rem;
     padding: 0px;
     margin: 0px;
 }
